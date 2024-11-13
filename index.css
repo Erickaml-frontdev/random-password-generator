@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #1C1C1C;
+    color: #fff;
+    font-family: "Karla", sans-serif;
+}
+
+input, .highlight{
+    color: #4ADF86;
+}
+.container{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background: #1F2937;
+    margin: 0 auto;
+    padding: 115px 52px;
+}
+h1{
+    width: 55%;
+    margin: 0;
+    font-weight: 800;
+}
+p{
+    color: #D5D4D8;
+}
+
+#btn-generate{
+    background: #10B981;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 17px;
+    margin: 51px 0 35px;
+}
+.password-section{
+    border-top:  2px solid #2F3E53;
+}
+input{
+    margin: 35px 12px 0;
+    border: none;
+    line-height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    width: 237px;
+    padding-left: 20px;
+}
+.input-wrapper{
+    position: relative;
+    display: inline-block;
+}
+
+.password-section button{
+    position: absolute;
+    top: 36px;
+    right: 12px;
+    border: none;
+    cursor: pointer;
+}
+#copypassword1, #copypassword2{
+    background: #10B981;
+    width: 80px;
+    color: #FFF;
+    border: none;
+    line-height: 39px;
+    border-radius: 6px;
+    padding: 0px 20px;
+    font-weight: 700px;
+}
+#copypassword1:hover, 
+#copypassword2:hover{
+    background: #0d9f6e;
+}
